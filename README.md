@@ -1,0 +1,2 @@
+# Multimodal-Convolutional-Neural-Network-For-Accurate-Autism-Spectrum-Disorder-Prediction
+This repository presents a CNN-based multimodal approach for timely Autism Spectrum Disorder (ASD) diagnosis. It utilizes facial expression analysis from images and eye movement data in children aged 6-36 months. The project aims to enhance ASD detection accuracy through innovative deep learning models and a user-friendly web application.
