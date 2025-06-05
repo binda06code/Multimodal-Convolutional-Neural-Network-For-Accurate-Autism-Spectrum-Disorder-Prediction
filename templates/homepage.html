@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+    <title>ASD Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            color: white;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background: #ddd;
+            color: black;
+        }
+        .section {
+            padding: 20px;
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ASD Detection</h1>
+</header>
+
+<nav>
+    <a href="/">Home</a>
+    <a href="/image_pred">Facial Images</a>
+    <a href="/eye_tracking">Eye Tracking Data</a>
+    <a href="/predict_multimodal">Predict Multimodal</a>
+    <a href="/about">About Us</a>
+    
+</nav>
+
+<section id="facial-images" class="section">
+    <h2>Facial Images</h2>
+    <p>Our ASD detection system analyzes facial images to identify key markers of ASD. The advanced algorithms process a variety of facial expressions to detect early signs of autism.</p>
+    <img src="static/images/businesswoman-using-tablet-analysis.jpg" alt="Facial Images">
+</section>
+
+<section id="eye-tracking" class="section">
+    <h2>Eye Tracking Data</h2>
+    <p>Eye tracking data is used to monitor gaze patterns and identify deviations that are indicative of ASD. Our system uses sophisticated eye-tracking technology to provide accurate results.</p>
+    <img src="path/to/your/image2.jpg" alt="Eye Tracking Data">
+</section>
+
+<footer>
+    <p>&copy; 2024 ASD Detection. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
+   

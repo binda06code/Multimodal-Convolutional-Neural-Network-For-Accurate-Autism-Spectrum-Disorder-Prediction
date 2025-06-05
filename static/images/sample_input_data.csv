@@ -1,0 +1,6 @@
+Trial,Stimulus,Export Start Trial Time [ms],Export End Trial Time [ms],Color,Category Group,Category Right,Category Left,Gender,Age,Diameter,POG,GazeVector,PupilSize,EyePosition,PupilPosition,Index,Pupil Diameter Right [mm],Pupil Diameter Left [mm],Point of Regard Right X [px],Point of Regard Right Y [px],Point of Regard Left X [px],Point of Regard Left Y [px]
+1,stim1,1000,2000,Red,Group1,Category1,Category2,Male,25,3.5,10.5,0.5,4.2,3.1,2.2,1,5.1,5.0,400,300,420,320
+2,stim2,2000,3000,Blue,Group2,Category3,Category4,Female,30,3.6,10.6,0.6,4.3,3.2,2.3,2,4.9,5.2,405,305,425,325
+3,stim3,3000,4000,Green,Group3,Category5,Category6,Male,35,3.7,10.7,0.7,4.4,3.3,2.4,3,5.0,4.8,410,310,430,330
+4,stim4,4000,5000,Yellow,Group4,Category7,Category8,Female,40,3.8,10.8,0.8,4.5,3.4,2.5,4,4.8,5.1,415,315,435,335
+5,stim5,5000,6000,Black,Group5,Category9,Category10,Male,45,3.9,10.9,0.9,4.6,3.5,2.6,5,5.2,4.9,420,320,440,340
