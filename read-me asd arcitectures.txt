@@ -1,0 +1,8 @@
+I have trained all the models and saved the models with the .h5, for prediction of a specific
+model. Just run the 'predictions.ipynb' file and load the .h5 files of each model. If you 
+want to make a seperate predictions for each then make multiple copies of 'predictions.ipynb' file.
+And load each .h5 model accordingly to each 'predictions.ipynb' file. While, loading a model
+either put the 'predictions.ipynb' file in each folder i.e. if you want to run the 'Effientnet'
+models, just put the 'predictions.ipynb' file in 'Effientnet' folder and run it by changing the name
+for each .h5 files. If the 'predictions.ipynb' file is in the same folder then you 
+do not need to give a seperate path to tf.keras.models.load_model('autism-elu.h5', compile = False). 
